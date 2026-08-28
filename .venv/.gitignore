@@ -1,0 +1,18 @@
+# Virtual environment
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Original datasets
+01_multilingual_sentiment/data/raw/ratings_train.txt
+
+# Ground-truth subsets
+01_multilingual_sentiment/data/raw/*_ground_truth_300.csv
