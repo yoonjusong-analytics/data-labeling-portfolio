@@ -1,0 +1,31 @@
+﻿review_id,review_title,review_body,language,product_category,sentiment_label,confidence,notes
+zh_0842626,质量实在一般,拿到手非常喜欢，轻便，简单，耐看。但是质量很p，五一假期穿着跟朋友玩了会儿篮球斗牛，结果左脚小白鞋直接坏掉：后跟脱胶，前面鞋面蹭破。此外，感觉时间一长大拇指会把鞋面顶破，质量实在不敢恭维。我穿三叶草打篮球搞运动什么的，完全不会出现一丢丢问题。,zh,shoes,Negative,High,"Positive comments on appearance and comfort, but serious quality problems dominate"
+zh_0531516,服务态度超好！,服务态度超好，衣服质量也是杠杠的，谢谢，祝生意越做越好！,zh,apparel,Positive,High,
+zh_0474460,刑法学,书还不错 纸张也还好 发货到货都快。,zh,book,Positive,High,"Mild positive wording, but the overall positive sentiment is unambiguous"
+zh_0915261,书可以，快递太差,周四下单时显示有货，周六送到，还特地请了假等书，结果周六凌晨发邮件给我说没货，下周一送到，然后没通知的情况下快递又周日送到，我不在，还被快递大骂一顿，说不在怎么不选工作日送货,zh,book,Negative,High,"Product itself is acceptable, but negative delivery and service experience dominates"
+zh_0581507,好书，值得推荐！,昨天买的，今天就送到了，大致流浪了一下，里面的问题都是在教育孩子的过程中遇到的典型问题，好书，值得推荐！,zh,book,Positive,High,
+zh_0216968,质量差,矬是弯的，每次打开合上都会磨主刀。镊子两头不一样长，夹个小东西那个费劲啊。,zh,sports,Negative,High,
+zh_0490041,价格很合理,洗的時候会褪色，但过了几遍水就不会了，布料很好，不会厚，是我想要的,zh,apparel,Positive,High,"Minor color-fading issue, but positive fabric evaluation and overall satisfaction dominate"
+zh_0132656,书质量差,数的质量好差，直接开裂了，内容还没有看。,zh,book,Negative,High,
+zh_0215064,还不错,故事还不错吧，但是标题洗澡和简介，真是感觉没有什么关系。,zh,book,Positive,Medium,"Positive evaluation of the story, with a secondary criticism of the title and description"
+zh_0061827,超值，喜欢,一直都使用这两个牌子，赶上双十一优惠，超值。,zh,beauty,Positive,High,
+zh_0219463,书皮破,一打开包装就看见了破烂的包装书皮，给人一种二手货的感觉。不开心。,zh,book,Negative,High,
+zh_0372680,怪癖心理学,内容写得通俗易懂还有小案例，但是觉得有点笼统，没有达到自己期望,zh,book,Negative,Medium,"Positive comments on readability, but failure to meet expectations dominates"
+zh_0484095,发过来的新鞋子有磨损，无法接受,鞋是好鞋，请问亚马逊海外直邮是怎么包装的，直接裸盒套个塑料袋就发给我了？鞋盒都破了，鞋子也刮花了，你们就这么服务客户？,zh,shoes,Negative,High,"Product itself is positively evaluated, but packaging damage and service complaints dominate"
+zh_0885819,kindle版排版错误太多了。,书是很棒了，毕竟等了那么久的电子版。 但是中间的低级错误太多了。错别字和本编排错误。 那些文学大家的名字错误的最多。 希望可以改善,zh,digital_ebook_purchase,Negative,Medium,"Book content is positively evaluated, but numerous Kindle formatting and text errors dominate"
+zh_0755217,老爷的漫画真心精品啊,从包装封面到书的内容都很棒！这本收藏必入啊！！,zh,book,Positive,High,
+zh_0449140,很实用,锅锅不错，比我想象中要大，材质很好，卖家还送了小赠品，很实用，超级满意的，无意间看到，就来评价了，的确不错的。,zh,kitchen,Positive,High,
+zh_0461730,亚马逊怎么了？,8月29下单到现在还没有发货，亚马逊是怎么了？,zh,automotive,Negative,High,Negative sentiment is clear from the shipping delay and rhetorical question despite no explicit negative adjective
+zh_0258888,质量好,质量好又便宜，五功能有点鸡肋，只用一种功能，其它的我感觉没什么用，有一个功能不出水我以为坏的，问了品牌商客服原来是滴水功能，就是洗头发的时候节水。我用的出水面积最大的那个功能，水打在身上很温柔，加上家里水压不足，一开始有点不习惯，用久了觉得好舒服。一个好的花洒能让你享受洗澡， 哈哈。,zh,home_improvement,Positive,High,"Several minor functional concerns are present, but overall product satisfaction clearly dominates"
+zh_0524275,没有地线,作为松下品牌，灯具地线也没有，打电话给客服，没有任何的回复，失望，大家不要买,zh,home_improvement,Negative,High,
+zh_0882043,间歇性掉线。 信号也不强，不如家里旧的TPLINK。,间歇性掉线。 信号也不强，不如家里旧的TPLINK。,zh,pc,Negative,High,
+zh_0546988,以为可以媲美东野圭吾,以为可以媲美东野圭吾，不过是我的一厢情愿。故事很长，到中部已经扣不住人心，再看下去纯属想知道结局，没有倒吸一口冷气的那种震撼。,zh,book,Negative,High,Negative sentiment is expressed through unmet expectations and loss of interest without strong explicit negative wording
+zh_0640668,价格质量很好,满100减100优惠后79，应该接近成本价了吧，亚马逊真给力，希望多点这样的活动！,zh,sports,Positive,High,
+zh_0946036,差评,杯子做的很轻薄，至于这个属于质量好还是差就不说了，关键是醒酒瓶上有一个非常明显的瑕疵，这个在市场上是卖不出去的那种老板怎么就给我发过来了呢，是在实体店里卖不了了所以赶紧在网上卖出去吧，太缺乏诚信。。退货吧太麻烦，算了，以后再不会光顾了。,zh,kitchen,Negative,High,
+zh_0798178,购物体验好差,买了东西两天后（完完整整的49个小时）才发货，完全没有渠道问一下是什么情况。收到后拆封发现里面连个塑料袋都不套，怕了，真差劲，等安装吧，安装的时候看看货物情况,zh,other,Negative,High,"Negative sentiment is driven by shipping delay, lack of communication, and poor packaging experience"
+zh_0022152,非常舒服的鞋,这双鞋最大的特点就是软，鞋底软，鞋垫软，皮面也软，整体也很轻，走路很舒服。,zh,shoes,Positive,High,
+zh_0552564,希望常有货,很好 就是总没货 这次比较慢 二十多天才到吧 之后下的英亚的都到了这个都还没到= =,zh,beauty,Negative,Medium,"Positive product comment, but stock availability and long delivery delay dominate the review"
+zh_0716700,发错货了！！！里面没有完形填空这本书！！,打开包装膜，没有完形填空，请解决一下！！！！！,zh,book,Negative,High,
+zh_0178042,很好,很好。以前从不去评价，不知道浪费了多少积分，现在知道积分可以换钱，就要好好评价了，后来我就把这段话复制走了，既能赚积分，还省事，走到哪复制到哪，直接发出就可以了，推荐给大家！,zh,shoes,Positive,Medium,"Positive wording is present, but most of the review is generic text copied for reward points"
+zh_0298875,鉴定完毕-这家出版不值得买,读到一半左右往后，印刷看上去很费劲，像是缺墨一样，伤眼睛。,zh,book,Negative,High,Poor printing quality causes readability problems and leads to an explicit negative recommendation
+zh_0950654,还是比较满意的一次网购,一.快递速度很快，比预计早了两天到，一星 二.商品是正品，防伪，保修，发票等都有 ，二星 三.包装的很严实，没有破损 ，三星 四，和商品描述的差不多，读写和写入速度都在可接受范围 ，四星 五，总的来说没有毛病，nice 五星,zh,pc,Positive,High,

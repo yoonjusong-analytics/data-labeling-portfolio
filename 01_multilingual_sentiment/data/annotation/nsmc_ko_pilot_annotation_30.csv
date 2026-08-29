@@ -1,0 +1,31 @@
+﻿review_id,review_title,review_body,language,product_category,sentiment_label,confidence,notes
+10122209,,미국이 진짜 선진국인 이유가 있구나 진짜 멋지드라...최고다,ko,movie,Positive,High,
+5849027,,최고의 명작이라고 생각합니다.아직 못보신 분들은 꼭 감상하세요.,ko,movie,Positive,High,
+9643272,,첨부터 끝까지 재밌음!!,ko,movie,Positive,High,
+1404443,,먹먹한 상처와 조용히 다가오는 치유,ko,movie,Positive,Medium,Implicit positive sentiment through healing theme
+10190504,,내가본영화가 뜻밖의여정이라니라 다섯군대전투네 ㅋㅋ 뜻밖의여정도봐야겟음.. 진짜최고 반지의제왕시리즈는안봣지만..,ko,movie,Positive,High,
+8058669,,정말 잠 온다 막장중에 막장,ko,movie,Negative,High,
+9074719,,단순 지존파에 대한 얘기뿐만 아닌 대한민국 전체를 볼 수 있는 좋은 다큐,ko,movie,Positive,Medium,
+10034561,,시간 때우기에 좋다...,ko,movie,Positive,High,
+8815532,,이게 왜 유치하다고 할까 ? 어린이용 영화이고 또 내용도 상당히 잘된 작품이다. 씨리즈 뒤로 갈수록 산으로 갔지만 1-3 편은 명작이다.,ko,movie,Positive,Medium,"Contains mild negative wording, but positive evaluation dominates"
+10148006,,God's Not Dead,ko,movie,Unclear,High,Title only; insufficient context to determine sentiment
+8083246,,걍 레즈비언 영화네...,ko,movie,Unclear,High,Descriptive statement without explicit evaluation
+8769362,,"하,,, 오락영화로서는 괜찮았던 1편이었는데, 2는 걍 이도저도 아닌 쓰레기",ko,movie,Negative,High,
+9874452,,번외편 아니죠?ㅋㅋㅋ,ko,movie,Unclear,Medium,Insufficient context; laughter marker does not clearly indicate sentiment
+9387278,,경호원들은 밖에 무장병력이 많은거 알텐데 거기에다 딸랑 권총들고 닥돌하는거보면;,ko,movie,Unclear,Low,"Criticism of a scene, but overall movie sentiment is unclear"
+8005270,,재미있었는데,ko,movie,Positive,Medium,"Positive expression, but the sentence appears incomplete"
+7437868,,전쟁선포니 뭐니. 남북 위기고조가 되는 지금 이 시점에 디어평양을 보았습니다. 돌이킬수 없이 흘러가버린 한민족 열전이 얼마나 많은 상처를 우리에게 안겼는지. 사랑하는 이의 얼굴이 떠오릅니다.더이상의 이별은 없기를...,ko,movie,Positive,Medium,Emotional appreciation without explicit movie evaluation
+5747479,,밑에 1점준 쓰레기들중 한국영화는 죄다 10점주는 M창들 많네 ㅋㅋ,ko,movie,Negative,High,Negative criticism directed at ratings/reviewers
+10135095,,와ㅡ다시보니 너무 재미있고 감동있고 그리고 생각해보니 한국영화에서 보지못한 신선한소재아이들과 같이봤는데 많은걸생각하고 너무 잼있게본영화.잘봤습니다.정재영님 연기 대박잘해ㅜㅡㅜ,ko,movie,Positive,High,
+8712975,,다이애나를 평민으로 만든 영화,ko,movie,Neutral,High,Descriptive statement without explicit sentiment
+7385251,,오유인들아 평점조작 쫌 그만 해달랑꼐?,ko,movie,Negative,Medium,Negative criticism of rating manipulation rather than the movie itself
+3141770,,귀여운 제니퍼 하는짓은 별로 안귀엽네.,ko,movie,Negative,High,Negative evaluation dominates; not balanced enough for Mixed
+5492435,,마음에 듭니다.,ko,movie,Positive,High,
+1768626,,정말 실타,ko,movie,Negative,High,
+8605057,,"""* 많고많은 유령영화 """"넌 내가 사람으로 보이니 ~~~ """"""",ko,movie,Unclear,Low,Incomplete or context-poor text; sentiment cannot be reliably determined
+5691414,,문근영 서우 천정명 옥택연 모두 다 너무 좋았다 ㅠㅠ,ko,movie,Positive,High,
+6124167,,오랜만에 다시봤다 언재 봐도 명작ㅎㅎ,ko,movie,Positive,High,
+4739501,,이영화보고 빢쳐서 별점깍으러왓음ㅡㅡ,ko,movie,Negative,High,
+1531835,,흥미로 점수 주는거 아니다 인정할건 인정하는 자세도 필요,ko,movie,Negative,Medium,"Critical sentiment dominates, but interpretation is required"
+3286373,,4편까지 만들어서 망신 당하는 꼴은 안 봤으면.,ko,movie,Negative,High,
+4644445,,원영의..ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ,ko,movie,Unclear,Low,Insufficient context; laughter alone does not determine sentiment
