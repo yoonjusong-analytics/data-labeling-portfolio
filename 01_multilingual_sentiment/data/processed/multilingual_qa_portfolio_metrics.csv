@@ -1,0 +1,12 @@
+﻿Metric,Value
+Languages,3 (EN / ZH / KO)
+Total Annotated Samples,900
+Total QA-Reviewed Samples,460
+Overall QA Coverage,51.1%
+English Polarity Agreement,92.5%
+Chinese Polarity Agreement,95.0%
+Korean Overall Agreement,86.7%
+Korean Decisive Agreement,97.0%
+English Intensity Agreement,73.75%
+Chinese Intensity Agreement,76.25%
+Korean Unclear Share of Disagreements,80.0%
