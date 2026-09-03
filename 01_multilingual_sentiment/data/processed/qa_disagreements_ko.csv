@@ -1,0 +1,41 @@
+﻿id,document,ground_truth,polarity,intensity,disagreement_type,error_category,review_note
+8609521,와우!!이건 봐야해!!,Negative,Positive,High,Negative → Positive,Possible Ground-truth Mismatch,Explicit positive recommendation conflicts with negative ground truth.
+6168434,나라면 귀신한테 복수한다. 꼭,Negative,Unclear,Low,Negative → Unclear,,
+7610736,이영활 아침 10시에해주길래 우연히 티비틀다보게됐는데 여자애가 어딘가낯이 익긴한데 설마 밀라요보비치겠어?했는데 역시나 밀라였다니 모델로 데뷔한줄 알았는데 영화토박이였구나....너무이뻐서 밀라는 아닌줄 알았는데 너무너무이쁘다밀라...근데 남자주인공변태ㅜ,Negative,Positive,Medium,Negative → Positive,Target Ambiguity,"Strong praise targets the actress, while another character is criticized."
+8661341,물타기 한번 가볼 까나요...ㅎㅎㅎ,Negative,Unclear,Low,Negative → Unclear,,
+8083246,걍 레즈비언 영화네...,Negative,Unclear,Low,Negative → Unclear,,
+10034561,시간 때우기에 좋다...,Negative,Positive,Low,Negative → Positive,Mixed Sentiment,Mild positive utility ('good for passing time') may imply only limited satisfaction.
+5747479,밑에 1점준 쓰레기들중 한국영화는 죄다 10점주는 M창들 많네 ㅋㅋ,Negative,Unclear,Medium,Negative → Unclear,,
+8605057,"""* 많고많은 유령영화 """"넌 내가 사람으로 보이니 ~~~ """"""",Negative,Unclear,Low,Negative → Unclear,,
+8283384,(っ '～')づ ⌒☆ ㅋㅋㅋ,Negative,Unclear,Low,Negative → Unclear,,
+810813,액션만 눈에 선해~~~,Negative,Unclear,Low,Negative → Unclear,,
+7907631,로,Negative,Unclear,Low,Negative → Unclear,,
+7573810,bitch,Negative,Unclear,High,Negative → Unclear,,
+6650634,밑에 3명 퀸즈 무개념팬이다,Negative,Unclear,High,Negative → Unclear,,
+9735104,정말 제미있었어요 최고!,Negative,Positive,High,Negative → Positive,Possible Ground-truth Mismatch,Explicit strong positive evaluation conflicts with negative ground truth.
+7385251,오유인들아 평점조작 쫌 그만 해달랑꼐?,Negative,Unclear,Medium,Negative → Unclear,,
+7688662,2주만 병원에서 기다렸으면 됐을것을...,Negative,Unclear,Low,Negative → Unclear,,
+9447197,솔직히 이거 평점 너무 막주는거아님?,Negative,Unclear,Low,Negative → Unclear,,
+1739915,낯선 세계에서의 구도기(求道記),Positive,Unclear,Low,Positive → Unclear,,
+9874452,번외편 아니죠?ㅋㅋㅋ,Positive,Unclear,Low,Positive → Unclear,,
+1964094,답을 알려고 하지마라.,Positive,Unclear,Low,Positive → Unclear,,
+6328119,오잉ㅋㅋㅋ이거 영화도 있음??ㅋㅋㅋ,Positive,Unclear,Low,Positive → Unclear,,
+1531835,흥미로 점수 주는거 아니다 인정할건 인정하는 자세도 필요,Positive,Unclear,Low,Positive → Unclear,,
+9907479,"ㄱ, ㅈ같ㅇ ㅍㄹㄱ 섹귀들~!!!",Positive,Unclear,High,Positive → Unclear,,
+6778313,감동 맞지만 영화로썬 꽝!!!,Positive,Negative,Medium,Positive → Negative,Mixed Sentiment,Acknowledges emotional impact but explicitly evaluates the movie negatively.
+10099824,누군가를 이렇게 오랫동안 사랑할 수 있을까,Positive,Unclear,Low,Positive → Unclear,,
+2333880,애절하고 색깔있는 고등학교 시절을 못보낸것이 아쉽다.,Positive,Unclear,Low,Positive → Unclear,,
+6074742,윤계상 키스신만 봄,Positive,Unclear,Low,Positive → Unclear,,
+4910465,원작 만화의 원래 제목이 나오코임. 한국에선 스타트로 출간.,Positive,Unclear,Low,Positive → Unclear,,
+4445312,절망이 아닌 희망으로 사는 장애인도 똑같이 대우받아야 합니다,Positive,Unclear,Low,Positive → Unclear,,
+8359485,생생저금통으로 제목을 바꿔라. ㅡㅡㅗ,Positive,Negative,Medium,Positive → Negative,Implicit / Context-dependent,Negative sentiment is conveyed indirectly through sarcasm and emotive symbols.
+10148006,God's Not Dead,Positive,Unclear,Low,Positive → Unclear,,
+9488556,감독의 뇌가 있는지 의심 스럽다. 분명히 에피소드 하나는 자신이 격었던 일을 스크린에 옴겨 놓은거 같다.유치하고 한숨이 나오지만 우리 삶이 다 다른것 처럼 영화를 보는 눈도 다 다르겠다. 따듯하게 감싸주지 못한 영화,Positive,Negative,High,Positive → Negative,Possible Ground-truth Mismatch,Strong criticism of the director and movie conflicts with positive ground truth.
+7644157,올,Positive,Unclear,Low,Positive → Unclear,,
+4644445,원영의..ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ,Positive,Unclear,Low,Positive → Unclear,,
+9473399,BLACK ... 불가능이란건없네요,Positive,Unclear,Low,Positive → Unclear,,
+10072118,1234567890,Positive,Unclear,Low,Positive → Unclear,,
+9804655,코미디를 즐기러 갔다 잔인함을 느낀 영화,Positive,Negative,Medium,Positive → Negative,Mixed Sentiment,Expectation of comedy conflicts with the negative experience of perceived cruelty.
+3363816,플스여 영원하라!,Positive,Unclear,Low,Positive → Unclear,,
+10172502,엄마 아들도 행복한 방법. 자유,Positive,Unclear,Low,Positive → Unclear,,
+9240357,와우 ~ 월드 보다 더 자극적이네 ~,Positive,Unclear,Medium,Positive → Unclear,,

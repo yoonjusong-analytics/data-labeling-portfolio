@@ -1,0 +1,10 @@
+﻿Metric,Value
+Total Samples,300
+Agreements,260
+Disagreements,40
+Overall Agreement Rate,86.7%
+Decisive Samples,268
+Decisive Agreements,260
+Decisive Agreement Rate,97.0%
+Unclear Disagreements,32
+Polarity Reversals,8
