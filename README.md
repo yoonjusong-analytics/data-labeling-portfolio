@@ -4,6 +4,29 @@ A multilingual data labeling portfolio project demonstrating an end-to-end
 **text annotation and quality assurance workflow** across English, Chinese,
 and Korean datasets.
 
+## Executive Summary
+
+This portfolio demonstrates an end-to-end multilingual sentiment
+annotation and quality assurance workflow across **English, Chinese,
+and Korean**.
+
+| Metric | Result |
+|---|---:|
+| Languages | **3** |
+| Annotated Reviews | **900** |
+| QA-Reviewed Samples | **460 (51.1%)** |
+| EN Polarity Agreement | **92.5%** |
+| ZH Polarity Agreement | **95.0%** |
+| KO Decisive-Label Agreement | **97.0%** |
+| EN / ZH Intensity Agreement | **73.75% / 76.25%** |
+
+**Key finding:** Sentiment polarity was relatively stable across
+languages, while sentiment intensity and ambiguous `Unclear`
+boundaries required greater interpretive judgment.
+
+**Workflow:**  
+`Data Preparation → Pilot Annotation → Guideline Refinement → Batch Annotation → QA → Agreement Analysis → Multilingual Evaluation`
+
 ---
 
 ## 1. Project Overview
@@ -1252,7 +1275,6 @@ data-labeling-portfolio/
 │   │   ├── sentiment_annotation_guideline_v0.1.md
 │   │   ├── sentiment_annotation_guideline_v0.2.md
 │   │   ├── sentiment_annotation_guideline_v0.3.md
-│   │   ├── sentiment_annotation_guideline_v0.3 (2).md
 │   │   └── sentiment_annotation_guideline_v0.4.md
 │   │
 │   ├── notebooks/
