@@ -836,3 +836,158 @@ reproducibility.
 | v0.1 | Initial Guideline | Initial multilingual sentiment rules |
 | v0.2 | Post-Pilot Revision | Dominance, sentiment target, Neutral vs. Unclear, confidence clarification, expanded language-specific rules |
 | v1.0 | Planned Final Version | Final revisions after main annotation, QA, ground-truth comparison, and error analysis |
+
+## Guideline Update v0.3 — QA-Based Refinement
+
+### 1. Purpose of Update
+
+Version 0.3 incorporates findings from the interim QA review of
+80 Chinese-language annotations (reviews 30–109).
+
+The QA analysis showed that polarity classification was relatively stable,
+while intensity classification required further clarification.
+
+### 2. Interim QA Results
+
+| Metric | Result |
+|---|---:|
+| Reviews evaluated | 80 |
+| Exact agreement | 73.75% |
+| Sentiment agreement | 95.00% |
+| Intensity agreement | 76.25% |
+| Reviews requiring correction | 21 |
+
+The primary source of disagreement was sentiment intensity rather than
+sentiment polarity.
+
+### 3. Intensity Error Analysis
+
+A total of 19 intensity corrections were identified.
+
+| Initial → Final | Count | Share |
+|---|---:|---:|
+| Low → Medium | 9 | 47.4% |
+| Medium → High | 6 | 31.6% |
+| High → Medium | 3 | 15.8% |
+| Medium → Low | 1 | 5.3% |
+
+Among all intensity corrections, 78.9% involved increasing the intensity
+level.
+
+This indicates a systematic tendency to underestimate sentiment intensity
+during initial annotation.
+
+### 4. Revised Intensity Criteria
+
+#### Low
+
+Use **Low** when the sentiment represents a mild preference, minor
+disappointment, or limited emotional reaction.
+
+Typical characteristics:
+
+- Minor inconvenience
+- Weak preference or dislike
+- Small issue with limited impact on overall experience
+- Neutral or restrained emotional language
+
+Examples:
+
+- "香味淡了点"
+- "还可以"
+- "有一点不足"
+
+#### Medium
+
+Use **Medium** when the sentiment clearly affects the user's evaluation,
+purchase value, usability, or overall experience.
+
+Typical characteristics:
+
+- Clear dissatisfaction or satisfaction
+- Expectations were not met
+- Noticeable quality or usability issues
+- Multiple moderate complaints
+- Stronger evaluation without severe failure or extreme emotional language
+
+Examples:
+
+- "感觉不值"
+- "没有达到自己期望"
+- "大部分内容并不感兴趣"
+- "看不下去"
+
+#### High
+
+Use **High** when either strong emotional language OR a severe practical
+problem is present.
+
+Typical characteristics:
+
+- Strong anger, disappointment, or enthusiasm
+- Product failure or serious physical defect
+- Product becomes unusable
+- Missing pages or major content defects
+- Refund or delivery failure
+- Strong purchase warning
+- Explicit expressions such as "非常失望", "垃圾", or "坑人"
+
+Important:
+
+> Intensity should reflect both linguistic strength and issue severity.
+
+A review does not require profanity, repeated punctuation, or highly
+emotional wording to receive a High intensity label if the practical
+severity of the problem is substantial.
+
+### 5. Mixed Sentiment Rule
+
+When both positive and negative opinions appear in the same review,
+identify the dominant overall evaluation.
+
+If the annotation schema does not provide a Mixed category:
+
+1. Identify the primary evaluation target.
+2. Determine which sentiment dominates the overall experience.
+3. Consider the reviewer's final conclusion.
+4. Assign Positive or Negative based on the dominant sentiment.
+
+Example:
+
+"神学理论十分丰富，但是情节不够精彩，整体比较枯燥乏味。"
+
+Final label:
+
+**Negative / Medium**
+
+The positive evaluation is acknowledged, but the overall reading
+experience is negative.
+
+### 6. Sentiment Reversal Rule
+
+When a reviewer changes their opinion within the review, prioritize the
+latest explicit overall evaluation.
+
+Example:
+
+"前面的翻译很差……后来觉得内容挺好，我收回1星评论，改为4星。"
+
+Final label:
+
+**Positive / Medium**
+
+The final stated evaluation takes precedence over the initial reaction.
+
+### 7. QA Decision Principle
+
+When determining sentiment intensity, evaluate both:
+
+**Expression Strength + Issue Severity**
+
+Do not rely only on emotional vocabulary, punctuation, or profanity.
+
+For example:
+
+- Mild complaint + minor inconvenience → Low
+- Clear complaint + meaningful impact → Medium
+- Severe failure or strong emotional reaction → High
