@@ -1,0 +1,834 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>2589922</id>
+      <name>CAM_FRONT Pilot Annotation</name>
+      <size>8</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2026-09-14 06:31:04.222858+00:00</created>
+      <updated>2026-09-15 07:47:11.384048+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>7</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>4469901</id>
+          <start>0</start>
+          <stop>7</stop>
+          <url>https://app.cvat.ai/api/tasks/2589922/dataset/export/api/jobs/4472485</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>yoonju.song2030</username>
+        <email>yoonju.song2030@gmail.com</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>Car</name>
+          <color>#2080c0</color>
+          <type>any</type>
+          <attributes>
+            <attribute>
+              <name>occlusion</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>None</default_value>
+              <values>None
+Partial
+Heavy</values>
+            </attribute>
+            <attribute>
+              <name>truncation</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>None</default_value>
+              <values>None
+Partial
+Heavy</values>
+            </attribute>
+            <attribute>
+              <name>small_distant</name>
+              <mutable>False</mutable>
+              <input_type>checkbox</input_type>
+              <default_value>false</default_value>
+              <values>false</values>
+            </attribute>
+            <attribute>
+              <name>ambiguity</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>None</default_value>
+              <values>None
+Class
+Boundary
+Object
+Target</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>Truck</name>
+          <color>#906080</color>
+          <type>any</type>
+          <attributes>
+            <attribute>
+              <name>occlusion</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>None</default_value>
+              <values>None
+Partial
+Heavy</values>
+            </attribute>
+            <attribute>
+              <name>truncation</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>None</default_value>
+              <values>None
+Partial
+Heavy</values>
+            </attribute>
+            <attribute>
+              <name>small_distant</name>
+              <mutable>False</mutable>
+              <input_type>checkbox</input_type>
+              <default_value>false</default_value>
+              <values>false</values>
+            </attribute>
+            <attribute>
+              <name>ambiguity</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>None</default_value>
+              <values>None
+Class
+Boundary
+Object
+Target</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>Construction Vehicle</name>
+          <color>#34de5c</color>
+          <type>any</type>
+          <attributes>
+            <attribute>
+              <name>occlusion</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>None</default_value>
+              <values>None
+Partial
+Heavy</values>
+            </attribute>
+            <attribute>
+              <name>truncation</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>None</default_value>
+              <values>None
+Partial
+Heavy</values>
+            </attribute>
+            <attribute>
+              <name>small_distant</name>
+              <mutable>False</mutable>
+              <input_type>checkbox</input_type>
+              <default_value>false</default_value>
+              <values>false</values>
+            </attribute>
+            <attribute>
+              <name>ambiguity</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>None</default_value>
+              <values>None
+Class
+Boundary
+Object
+Target</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>Trailer</name>
+          <color>#d02080</color>
+          <type>any</type>
+          <attributes>
+            <attribute>
+              <name>occlusion</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>None</default_value>
+              <values>None
+Partial
+Heavy</values>
+            </attribute>
+            <attribute>
+              <name>truncation</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>None</default_value>
+              <values>None
+Partial
+Heavy</values>
+            </attribute>
+            <attribute>
+              <name>small_distant</name>
+              <mutable>False</mutable>
+              <input_type>checkbox</input_type>
+              <default_value>false</default_value>
+              <values>false</values>
+            </attribute>
+            <attribute>
+              <name>ambiguity</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>None</default_value>
+              <values>None
+Class
+Boundary
+Object
+Target</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>Pedestrian</name>
+          <color>#80e060</color>
+          <type>any</type>
+          <attributes>
+            <attribute>
+              <name>occlusion</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>None</default_value>
+              <values>None
+Partial
+Heavy</values>
+            </attribute>
+            <attribute>
+              <name>truncation</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>None</default_value>
+              <values>None
+Partial
+Heavy</values>
+            </attribute>
+            <attribute>
+              <name>small_distant</name>
+              <mutable>False</mutable>
+              <input_type>checkbox</input_type>
+              <default_value>false</default_value>
+              <values>false</values>
+            </attribute>
+            <attribute>
+              <name>ambiguity</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>None</default_value>
+              <values>None
+Class
+Boundary
+Object
+Target</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>Bicycle</name>
+          <color>#004040</color>
+          <type>any</type>
+          <attributes>
+            <attribute>
+              <name>occlusion</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>None</default_value>
+              <values>None
+Partial
+Heavy</values>
+            </attribute>
+            <attribute>
+              <name>truncation</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>None</default_value>
+              <values>None
+Partial
+Heavy</values>
+            </attribute>
+            <attribute>
+              <name>small_distant</name>
+              <mutable>False</mutable>
+              <input_type>checkbox</input_type>
+              <default_value>false</default_value>
+              <values>false</values>
+            </attribute>
+            <attribute>
+              <name>ambiguity</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>None</default_value>
+              <values>None
+Class
+Boundary
+Object
+Target</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>Traffic Cone</name>
+          <color>#bbcf6b</color>
+          <type>any</type>
+          <attributes>
+            <attribute>
+              <name>occlusion</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>None</default_value>
+              <values>None
+Partial
+Heavy</values>
+            </attribute>
+            <attribute>
+              <name>truncation</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>None</default_value>
+              <values>None
+Partial
+Heavy</values>
+            </attribute>
+            <attribute>
+              <name>small_distant</name>
+              <mutable>False</mutable>
+              <input_type>checkbox</input_type>
+              <default_value>false</default_value>
+              <values>false</values>
+            </attribute>
+            <attribute>
+              <name>ambiguity</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>None</default_value>
+              <values>None
+Class
+Boundary
+Object
+Target</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>Barrier</name>
+          <color>#c8d9be</color>
+          <type>any</type>
+          <attributes>
+            <attribute>
+              <name>occlusion</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>None</default_value>
+              <values>None
+Partial
+Heavy</values>
+            </attribute>
+            <attribute>
+              <name>truncation</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>None</default_value>
+              <values>None
+Partial
+Heavy</values>
+            </attribute>
+            <attribute>
+              <name>small_distant</name>
+              <mutable>False</mutable>
+              <input_type>checkbox</input_type>
+              <default_value>false</default_value>
+              <values>false</values>
+            </attribute>
+            <attribute>
+              <name>ambiguity</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>None</default_value>
+              <values>None
+Class
+Boundary
+Object
+Target</values>
+            </attribute>
+          </attributes>
+        </label>
+      </labels>
+    </task>
+    <dumped>2026-09-15 07:50:27.751230+00:00</dumped>
+  </meta>
+  <image id="0" name="image_01.jpg" width="1600" height="900">
+    <box label="Traffic Cone" source="manual" occluded="0" xtl="719.70" ytl="495.10" xbr="736.20" ybr="562.38" z_order="0">
+      <attribute name="occlusion">None</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">false</attribute>
+      <attribute name="ambiguity">None</attribute>
+    </box>
+    <box label="Barrier" source="manual" occluded="0" xtl="2.03" ytl="463.32" xbr="255.79" ybr="582.82" z_order="0">
+      <attribute name="occlusion">Partial</attribute>
+      <attribute name="truncation">Partial</attribute>
+      <attribute name="small_distant">false</attribute>
+      <attribute name="ambiguity">None</attribute>
+    </box>
+    <box label="Truck" source="manual" occluded="0" xtl="280.60" ytl="456.43" xbr="526.20" ybr="573.40" z_order="0">
+      <attribute name="occlusion">Partial</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">false</attribute>
+      <attribute name="ambiguity">None</attribute>
+    </box>
+    <box label="Traffic Cone" source="manual" occluded="0" xtl="596.90" ytl="492.10" xbr="630.00" ybr="555.50" z_order="0">
+      <attribute name="occlusion">Partial</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">false</attribute>
+      <attribute name="ambiguity">None</attribute>
+    </box>
+    <box label="Traffic Cone" source="manual" occluded="0" xtl="681.69" ytl="493.17" xbr="698.17" ybr="564.33" z_order="0">
+      <attribute name="occlusion">None</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">false</attribute>
+      <attribute name="ambiguity">None</attribute>
+    </box>
+    <box label="Truck" source="manual" occluded="0" xtl="1403.98" ytl="417.14" xbr="1600.00" ybr="545.80" z_order="0">
+      <attribute name="occlusion">None</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">false</attribute>
+      <attribute name="ambiguity">None</attribute>
+    </box>
+    <box label="Construction Vehicle" source="manual" occluded="0" xtl="0.90" ytl="399.25" xbr="238.87" ybr="461.28" z_order="0">
+      <attribute name="occlusion">Partial</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">false</attribute>
+      <attribute name="ambiguity">None</attribute>
+    </box>
+  </image>
+  <image id="1" name="image_02.jpg" width="1600" height="900">
+    <box label="Car" source="manual" occluded="0" xtl="870.72" ytl="414.64" xbr="905.05" ybr="444.81" z_order="0">
+      <attribute name="occlusion">Partial</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">true</attribute>
+      <attribute name="ambiguity">None</attribute>
+    </box>
+    <box label="Truck" source="manual" occluded="0" xtl="1264.00" ytl="412.56" xbr="1468.90" ybr="489.50" z_order="0">
+      <attribute name="occlusion">Partial</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">false</attribute>
+      <attribute name="ambiguity">None</attribute>
+    </box>
+    <box label="Car" source="manual" occluded="0" xtl="684.50" ytl="409.44" xbr="730.30" ybr="452.09" z_order="0">
+      <attribute name="occlusion">None</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">true</attribute>
+      <attribute name="ambiguity">None</attribute>
+    </box>
+    <box label="Car" source="manual" occluded="0" xtl="0.00" ytl="506.43" xbr="93.80" ybr="759.06" z_order="0">
+      <attribute name="occlusion">None</attribute>
+      <attribute name="truncation">Heavy</attribute>
+      <attribute name="small_distant">false</attribute>
+      <attribute name="ambiguity">None</attribute>
+    </box>
+    <box label="Car" source="manual" occluded="0" xtl="1049.70" ytl="426.09" xbr="1298.28" ybr="606.06" z_order="0">
+      <attribute name="occlusion">None</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">false</attribute>
+      <attribute name="ambiguity">None</attribute>
+    </box>
+    <box label="Car" source="manual" occluded="0" xtl="1351.34" ytl="385.51" xbr="1598.93" ybr="709.05" z_order="0">
+      <attribute name="occlusion">Partial</attribute>
+      <attribute name="truncation">Partial</attribute>
+      <attribute name="small_distant">false</attribute>
+      <attribute name="ambiguity">None</attribute>
+    </box>
+    <box label="Truck" source="manual" occluded="0" xtl="778.13" ytl="386.60" xbr="936.30" ybr="436.49" z_order="0">
+      <attribute name="occlusion">None</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">true</attribute>
+      <attribute name="ambiguity">None</attribute>
+    </box>
+    <box label="Car" source="manual" occluded="0" xtl="825.00" ytl="410.48" xbr="858.23" ybr="438.57" z_order="0">
+      <attribute name="occlusion">Partial</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">true</attribute>
+      <attribute name="ambiguity">None</attribute>
+    </box>
+  </image>
+  <image id="2" name="image_03.jpg" width="1600" height="900">
+    <box label="Construction Vehicle" source="manual" occluded="0" xtl="546.94" ytl="352.70" xbr="659.63" ybr="465.50" z_order="0">
+      <attribute name="occlusion">None</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">false</attribute>
+      <attribute name="ambiguity">None</attribute>
+    </box>
+    <box label="Car" source="manual" occluded="0" xtl="721.59" ytl="425.69" xbr="746.10" ybr="452.12" z_order="0">
+      <attribute name="occlusion">Heavy</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">true</attribute>
+      <attribute name="ambiguity">Class</attribute>
+    </box>
+    <box label="Car" source="manual" occluded="0" xtl="803.55" ytl="428.60" xbr="819.54" ybr="443.17" z_order="0">
+      <attribute name="occlusion">None</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">true</attribute>
+      <attribute name="ambiguity">None</attribute>
+    </box>
+    <box label="Car" source="manual" occluded="0" xtl="827.51" ytl="432.70" xbr="844.37" ybr="446.30" z_order="0">
+      <attribute name="occlusion">None</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">true</attribute>
+      <attribute name="ambiguity">Class</attribute>
+    </box>
+    <box label="Truck" source="manual" occluded="0" xtl="891.08" ytl="424.88" xbr="924.90" ybr="456.84" z_order="0">
+      <attribute name="occlusion">None</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">true</attribute>
+      <attribute name="ambiguity">Class</attribute>
+    </box>
+    <box label="Construction Vehicle" source="manual" occluded="0" xtl="1176.32" ytl="222.94" xbr="1598.17" ybr="588.87" z_order="0">
+      <attribute name="occlusion">Partial</attribute>
+      <attribute name="truncation">Partial</attribute>
+      <attribute name="small_distant">false</attribute>
+      <attribute name="ambiguity">None</attribute>
+    </box>
+    <box label="Car" source="manual" occluded="0" xtl="1077.43" ytl="456.00" xbr="1117.13" ybr="484.75" z_order="0">
+      <attribute name="occlusion">Partial</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">true</attribute>
+      <attribute name="ambiguity">Boundary</attribute>
+    </box>
+    <box label="Construction Vehicle" source="manual" occluded="0" xtl="947.50" ytl="422.65" xbr="1017.43" ybr="467.60" z_order="0">
+      <attribute name="occlusion">None</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">false</attribute>
+      <attribute name="ambiguity">None</attribute>
+    </box>
+    <box label="Traffic Cone" source="manual" occluded="0" xtl="1436.35" ytl="527.00" xbr="1485.88" ybr="610.06" z_order="0">
+      <attribute name="occlusion">None</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">false</attribute>
+      <attribute name="ambiguity">None</attribute>
+    </box>
+    <box label="Truck" source="manual" occluded="0" xtl="1192.40" ytl="380.00" xbr="1402.14" ybr="501.60" z_order="0">
+      <attribute name="occlusion">Heavy</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">false</attribute>
+      <attribute name="ambiguity">None</attribute>
+    </box>
+    <box label="Truck" source="manual" occluded="0" xtl="486.50" ytl="406.06" xbr="578.10" ybr="470.25" z_order="0">
+      <attribute name="occlusion">Partial</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">false</attribute>
+      <attribute name="ambiguity">None</attribute>
+    </box>
+    <box label="Car" source="manual" occluded="0" xtl="663.17" ytl="418.40" xbr="738.31" ybr="455.34" z_order="0">
+      <attribute name="occlusion">Partial</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">true</attribute>
+      <attribute name="ambiguity">None</attribute>
+    </box>
+  </image>
+  <image id="3" name="image_04.jpg" width="1600" height="900">
+    <box label="Traffic Cone" source="manual" occluded="0" xtl="762.80" ytl="494.80" xbr="798.10" ybr="517.20" z_order="0">
+      <attribute name="occlusion">None</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">true</attribute>
+      <attribute name="ambiguity">None</attribute>
+    </box>
+    <box label="Traffic Cone" source="manual" occluded="0" xtl="115.00" ytl="518.60" xbr="156.40" ybr="589.33" z_order="0">
+      <attribute name="occlusion">None</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">false</attribute>
+      <attribute name="ambiguity">None</attribute>
+    </box>
+    <box label="Traffic Cone" source="manual" occluded="0" xtl="949.46" ytl="507.41" xbr="955.60" ybr="528.79" z_order="0">
+      <attribute name="occlusion">None</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">false</attribute>
+      <attribute name="ambiguity">None</attribute>
+    </box>
+    <box label="Traffic Cone" source="manual" occluded="0" xtl="964.17" ytl="505.50" xbr="978.33" ybr="532.67" z_order="0">
+      <attribute name="occlusion">None</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">false</attribute>
+      <attribute name="ambiguity">None</attribute>
+    </box>
+    <box label="Car" source="manual" occluded="0" xtl="289.26" ytl="491.83" xbr="474.10" ybr="600.30" z_order="0">
+      <attribute name="occlusion">None</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">false</attribute>
+      <attribute name="ambiguity">None</attribute>
+    </box>
+    <box label="Car" source="manual" occluded="0" xtl="511.80" ytl="497.92" xbr="602.00" ybr="554.00" z_order="0">
+      <attribute name="occlusion">None</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">false</attribute>
+      <attribute name="ambiguity">None</attribute>
+    </box>
+    <box label="Car" source="manual" occluded="0" xtl="638.70" ytl="491.20" xbr="707.20" ybr="544.68" z_order="0">
+      <attribute name="occlusion">None</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">false</attribute>
+      <attribute name="ambiguity">None</attribute>
+    </box>
+    <box label="Traffic Cone" source="manual" occluded="0" xtl="736.79" ytl="498.72" xbr="741.80" ybr="515.00" z_order="0">
+      <attribute name="occlusion">None</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">true</attribute>
+      <attribute name="ambiguity">None</attribute>
+    </box>
+    <box label="Traffic Cone" source="manual" occluded="0" xtl="266.90" ytl="522.30" xbr="290.48" ybr="574.71" z_order="0">
+      <attribute name="occlusion">None</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">true</attribute>
+      <attribute name="ambiguity">None</attribute>
+    </box>
+    <box label="Car" source="manual" occluded="0" xtl="697.23" ytl="488.28" xbr="736.20" ybr="521.80" z_order="0">
+      <attribute name="occlusion">Partial</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">true</attribute>
+      <attribute name="ambiguity">None</attribute>
+    </box>
+    <box label="Traffic Cone" source="manual" occluded="0" xtl="940.60" ytl="505.75" xbr="947.80" ybr="531.29" z_order="0">
+      <attribute name="occlusion">None</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">true</attribute>
+      <attribute name="ambiguity">None</attribute>
+    </box>
+    <box label="Car" source="manual" occluded="0" xtl="856.10" ytl="486.59" xbr="898.10" ybr="514.63" z_order="0">
+      <attribute name="occlusion">Partial</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">true</attribute>
+      <attribute name="ambiguity">None</attribute>
+    </box>
+    <box label="Car" source="manual" occluded="0" xtl="905.76" ytl="488.79" xbr="941.98" ybr="517.10" z_order="0">
+      <attribute name="occlusion">Partial</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">true</attribute>
+      <attribute name="ambiguity">None</attribute>
+    </box>
+    <box label="Car" source="manual" occluded="0" xtl="950.85" ytl="483.82" xbr="983.60" ybr="524.90" z_order="0">
+      <attribute name="occlusion">Partial</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">true</attribute>
+      <attribute name="ambiguity">Class</attribute>
+    </box>
+  </image>
+  <image id="4" name="image_05.jpg" width="1600" height="900">
+    <box label="Pedestrian" source="manual" occluded="0" xtl="154.30" ytl="422.93" xbr="209.50" ybr="548.12" z_order="0">
+      <attribute name="occlusion">Partial</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">false</attribute>
+      <attribute name="ambiguity">None</attribute>
+    </box>
+    <box label="Pedestrian" source="manual" occluded="0" xtl="235.50" ytl="421.80" xbr="302.00" ybr="546.99" z_order="0">
+      <attribute name="occlusion">None</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">false</attribute>
+      <attribute name="ambiguity">None</attribute>
+    </box>
+    <box label="Car" source="manual" occluded="0" xtl="953.91" ytl="443.23" xbr="984.36" ybr="498.50" z_order="0">
+      <attribute name="occlusion">Heavy</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">true</attribute>
+      <attribute name="ambiguity">Class</attribute>
+    </box>
+    <box label="Car" source="manual" occluded="0" xtl="980.98" ytl="430.83" xbr="1030.60" ybr="519.90" z_order="0">
+      <attribute name="occlusion">Heavy</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">true</attribute>
+      <attribute name="ambiguity">Class</attribute>
+    </box>
+    <box label="Car" source="manual" occluded="0" xtl="507.29" ytl="426.27" xbr="638.10" ybr="523.27" z_order="0">
+      <attribute name="occlusion">Partial</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">false</attribute>
+      <attribute name="ambiguity">None</attribute>
+    </box>
+    <box label="Car" source="manual" occluded="0" xtl="604.33" ytl="425.23" xbr="759.93" ybr="549.25" z_order="0">
+      <attribute name="occlusion">None</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">false</attribute>
+      <attribute name="ambiguity">None</attribute>
+    </box>
+    <box label="Car" source="manual" occluded="0" xtl="752.03" ytl="430.83" xbr="784.74" ybr="484.96" z_order="0">
+      <attribute name="occlusion">Heavy</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">true</attribute>
+      <attribute name="ambiguity">None</attribute>
+    </box>
+    <box label="Traffic Cone" source="manual" occluded="0" xtl="791.50" ytl="446.40" xbr="856.90" ybr="470.30" z_order="0">
+      <attribute name="occlusion">Partial</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">true</attribute>
+      <attribute name="ambiguity">Class</attribute>
+    </box>
+    <box label="Car" source="manual" occluded="0" xtl="985.50" ytl="434.21" xbr="1126.47" ybr="544.70" z_order="0">
+      <attribute name="occlusion">Partial</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">false</attribute>
+      <attribute name="ambiguity">None</attribute>
+    </box>
+  </image>
+  <image id="5" name="image_06.jpg" width="1600" height="900">
+    <box label="Traffic Cone" source="manual" occluded="0" xtl="463.80" ytl="510.00" xbr="472.40" ybr="536.40" z_order="0">
+      <attribute name="occlusion">Heavy</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">true</attribute>
+      <attribute name="ambiguity">Boundary</attribute>
+    </box>
+    <box label="Traffic Cone" source="manual" occluded="0" xtl="477.20" ytl="514.30" xbr="485.80" ybr="539.40" z_order="0">
+      <attribute name="occlusion">Heavy</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">true</attribute>
+      <attribute name="ambiguity">Boundary</attribute>
+    </box>
+    <box label="Traffic Cone" source="manual" occluded="0" xtl="488.80" ytl="516.26" xbr="497.58" ybr="540.90" z_order="0">
+      <attribute name="occlusion">Partial</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">true</attribute>
+      <attribute name="ambiguity">None</attribute>
+    </box>
+    <box label="Traffic Cone" source="manual" occluded="0" xtl="498.80" ytl="517.60" xbr="509.90" ybr="544.70" z_order="0">
+      <attribute name="occlusion">Partial</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">true</attribute>
+      <attribute name="ambiguity">Boundary</attribute>
+    </box>
+    <box label="Traffic Cone" source="manual" occluded="0" xtl="510.90" ytl="520.17" xbr="520.90" ybr="547.60" z_order="0">
+      <attribute name="occlusion">Partial</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">true</attribute>
+      <attribute name="ambiguity">Boundary</attribute>
+    </box>
+    <box label="Traffic Cone" source="manual" occluded="0" xtl="515.81" ytl="526.40" xbr="534.22" ybr="562.70" z_order="0">
+      <attribute name="occlusion">Partial</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">true</attribute>
+      <attribute name="ambiguity">Boundary</attribute>
+    </box>
+    <box label="Traffic Cone" source="manual" occluded="0" xtl="531.68" ytl="526.84" xbr="541.86" ybr="561.50" z_order="0">
+      <attribute name="occlusion">Partial</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">true</attribute>
+      <attribute name="ambiguity">None</attribute>
+    </box>
+    <box label="Traffic Cone" source="manual" occluded="0" xtl="534.80" ytl="531.34" xbr="555.80" ybr="575.60" z_order="0">
+      <attribute name="occlusion">None</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">true</attribute>
+      <attribute name="ambiguity">None</attribute>
+    </box>
+  </image>
+  <image id="6" name="image_07.jpg" width="1600" height="900">
+    <box label="Trailer" source="manual" occluded="0" xtl="747.74" ytl="463.65" xbr="804.14" ybr="525.68" z_order="0">
+      <attribute name="occlusion">None</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">true</attribute>
+      <attribute name="ambiguity">Class</attribute>
+    </box>
+    <box label="Trailer" source="manual" occluded="0" xtl="1493.23" ytl="496.35" xbr="1595.86" ybr="550.49" z_order="0">
+      <attribute name="occlusion">Partial</attribute>
+      <attribute name="truncation">Partial</attribute>
+      <attribute name="small_distant">false</attribute>
+      <attribute name="ambiguity">Boundary</attribute>
+    </box>
+    <box label="Car" source="manual" occluded="0" xtl="1342.30" ytl="515.50" xbr="1418.07" ybr="541.70" z_order="0">
+      <attribute name="occlusion">Heavy</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">true</attribute>
+      <attribute name="ambiguity">Boundary</attribute>
+    </box>
+    <box label="Car" source="manual" occluded="0" xtl="1306.20" ytl="515.49" xbr="1338.00" ybr="538.20" z_order="0">
+      <attribute name="occlusion">Heavy</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">true</attribute>
+      <attribute name="ambiguity">Boundary</attribute>
+    </box>
+    <box label="Car" source="manual" occluded="0" xtl="1287.00" ytl="508.88" xbr="1336.75" ybr="536.20" z_order="0">
+      <attribute name="occlusion">Heavy</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">true</attribute>
+      <attribute name="ambiguity">Boundary</attribute>
+    </box>
+    <box label="Car" source="manual" occluded="0" xtl="1194.00" ytl="499.72" xbr="1287.46" ybr="544.80" z_order="0">
+      <attribute name="occlusion">Partial</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">true</attribute>
+      <attribute name="ambiguity">None</attribute>
+    </box>
+    <box label="Car" source="manual" occluded="0" xtl="1153.71" ytl="491.60" xbr="1217.90" ybr="535.47" z_order="0">
+      <attribute name="occlusion">Partial</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">true</attribute>
+      <attribute name="ambiguity">None</attribute>
+    </box>
+  </image>
+  <image id="7" name="image_08.jpg" width="1600" height="900">
+    <box label="Pedestrian" source="manual" occluded="0" xtl="474.30" ytl="453.27" xbr="527.86" ybr="599.93" z_order="0">
+      <attribute name="occlusion">Partial</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">false</attribute>
+      <attribute name="ambiguity">None</attribute>
+    </box>
+    <box label="Traffic Cone" source="manual" occluded="0" xtl="682.50" ytl="529.70" xbr="696.20" ybr="557.50" z_order="0">
+      <attribute name="occlusion">None</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">true</attribute>
+      <attribute name="ambiguity">None</attribute>
+    </box>
+    <box label="Traffic Cone" source="manual" occluded="0" xtl="699.30" ytl="527.60" xbr="709.20" ybr="553.60" z_order="0">
+      <attribute name="occlusion">None</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">true</attribute>
+      <attribute name="ambiguity">None</attribute>
+    </box>
+    <box label="Traffic Cone" source="manual" occluded="0" xtl="710.70" ytl="524.70" xbr="720.90" ybr="548.40" z_order="0">
+      <attribute name="occlusion">None</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">true</attribute>
+      <attribute name="ambiguity">None</attribute>
+    </box>
+    <box label="Traffic Cone" source="manual" occluded="0" xtl="725.00" ytl="526.12" xbr="734.40" ybr="543.40" z_order="0">
+      <attribute name="occlusion">Partial</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">false</attribute>
+      <attribute name="ambiguity">Boundary</attribute>
+    </box>
+    <box label="Pedestrian" source="manual" occluded="0" xtl="878.60" ytl="496.40" xbr="892.20" ybr="509.12" z_order="0">
+      <attribute name="occlusion">Partial</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">true</attribute>
+      <attribute name="ambiguity">Boundary</attribute>
+    </box>
+    <box label="Pedestrian" source="manual" occluded="0" xtl="1026.70" ytl="492.67" xbr="1045.50" ybr="561.30" z_order="0">
+      <attribute name="occlusion">None</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">true</attribute>
+      <attribute name="ambiguity">None</attribute>
+    </box>
+    <box label="Car" source="manual" occluded="0" xtl="1102.79" ytl="513.44" xbr="1164.46" ybr="555.60" z_order="0">
+      <attribute name="occlusion">None</attribute>
+      <attribute name="truncation">None</attribute>
+      <attribute name="small_distant">false</attribute>
+      <attribute name="ambiguity">None</attribute>
+    </box>
+  </image>
+</annotations>
