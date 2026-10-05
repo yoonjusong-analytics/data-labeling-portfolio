@@ -25,3 +25,14 @@ __pycache__/
 # ==============================
 .DS_Store
 Thumbs.db
+
+# Smart Agriculture datasets
+03_smart_agriculture/data/raw/
+03_smart_agriculture/data/processed/
+03_smart_agriculture/data/pilot/
+
+# Smart Agriculture models
+03_smart_agriculture/models/
+
+# External CropAndWeed repository
+03_smart_agriculture/cropandweed-dataset/
