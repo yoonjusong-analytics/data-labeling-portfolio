@@ -1,0 +1,6 @@
+﻿image_name,qa_status,error_type,severity,review_note
+ave-0035-0001.jpg,Pass Candidate,None Observed,Low,Major plant region covered; detailed boundary QA pending.
+ave-0035-0002.jpg,Pass Candidate,None Observed,Low,Both main plants covered; detailed boundary QA pending.
+ave-0035-0003.jpg,Review,Missing Region,Medium,Possible missing leaves and small surrounding plants.
+ave-0007-0007.jpg,Review,Boundary Error,Medium,Inspect small leaves and polygon boundaries at higher zoom.
+ave-0032-0006.jpg,Correction Required,Missing Region,High,Upper and left leaves are not covered by baseline polygon.

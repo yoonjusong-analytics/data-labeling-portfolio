@@ -1,0 +1,6 @@
+﻿image_name,gt_pixels,pred_pixels_valid,tp,fp,fn,iou,dice,precision,recall,qa_status,error_type,severity,corrected_iou,iou_delta,correction_method,evaluation_status
+ave-0035-0001.jpg,101248,100430,95787,4643,5461,0.9046,0.9499,0.9538,0.9461,Pass Candidate,None Observed,Low,,,,provisional
+ave-0035-0002.jpg,336283,324883,304271,20612,32012,0.8526,0.9204,0.9366,0.9048,Pass Candidate,None Observed,Low,,,,provisional
+ave-0035-0003.jpg,118014,90749,87613,3136,30401,0.7232,0.8394,0.9654,0.7424,Review,Missing Region,Medium,,,,provisional
+ave-0007-0007.jpg,40011,31836,29800,2036,10211,0.7087,0.8295,0.936,0.7448,Review,Boundary Error,Medium,,,,provisional
+ave-0032-0006.jpg,30481,11256,10541,715,19940,0.3379,0.5051,0.9365,0.3458,Correction Required,Missing Region,High,0.5461,0.2082,human_guided_prompt_selection,provisional

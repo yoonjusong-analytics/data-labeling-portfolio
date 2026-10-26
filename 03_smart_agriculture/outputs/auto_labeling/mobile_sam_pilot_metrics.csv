@@ -1,0 +1,2 @@
+﻿image_name,model,prompt_type,prompt_x,prompt_y,reference_label_id,iou,dice,tp,fp,fn,predicted_quality_score
+ave-0035-0001.jpg,MobileSAM_vit_t,positive_point,1050,650,21,0.9045811258747203,0.9499003361794544,95787,4643,5461,0.9910839796066284

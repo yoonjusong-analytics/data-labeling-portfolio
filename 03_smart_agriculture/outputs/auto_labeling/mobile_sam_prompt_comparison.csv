@@ -1,0 +1,4 @@
+﻿experiment,point_count,pred_pixels,tp,fp,fn,iou,dice,precision,recall,iou_delta
+Baseline,1,11256,10541,715,19940,0.3379,0.5051,0.9365,0.3458,0.0
+Experiment A,1,6265,5799,466,24682,0.1874,0.3156,0.9256,0.1902,-0.1505
+Experiment B,2,17521,16340,1181,14141,0.5161,0.6808,0.9326,0.5361,0.1782

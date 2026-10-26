@@ -1,0 +1,2 @@
+﻿image_name,experiment,method,selected_candidate,predicted_score,mask_pixels,tp,fp,fn,iou,dice,precision,recall,qa_status,evaluation_status
+ave-0032-0006.jpg,Experiment E,Positive-Negative Prompt Candidate Selection,0,0.7757582068443298,19058,17498,1560,12983,0.5461,0.7064,0.9181,0.5741,pending_human_review,provisional
